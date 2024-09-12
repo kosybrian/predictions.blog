@@ -1,0 +1,160 @@
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+.hero{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(aquamarine);
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+    
+#sidenav{
+    width:120px;
+    height: 100vh;
+    position: fixed;
+    right:0;
+    top:0;
+    z-index:2;
+    
+}
+#icon{
+    width:120px;
+    height: 100vh;
+    position: fixed;
+    left:0;
+    top:0;
+    z-index:2;
+}
+nav ul li{
+    list-style:none;
+    display:inline-flex;
+    margin-left:-175px;
+    padding:0px
+    
+}
+nav ul li a{
+    color:chartreuse;
+    font-size:18px;
+    font-style:none;
+}
+
+.banner-btn{
+    margin: -200px auto 0;
+    margin-left: -1400px;
+    position:fixed;
+}
+.banner-btn a{
+    width:-1050px;
+    text-decoration: none;
+    display:inline-flex;
+    margin:-250px 100px;
+    padding:0px 0px;
+    color:chartreuse;
+    border: 5px solid whitesmoke;
+    border-radius:80px;
+    font-weight:bold;
+    font-size:xx-large;
+    
+}
+.banner-btn span{
+   background:white;
+   border-radius:80px;
+   padding:20px;
+}
+.Saikopredictz{
+   margin: -200px auto 0;
+   margin-left: -1300px;
+   position:fixed;
+   
+}
+.Saikopredictz a{
+   text-decoration:none;
+   font-style: none;
+   font-weight:bold;
+   color:yellow;
+   font-size:x-large
+}
+.Saikopredictz span{
+   padding:10px;
+   background:blueviolet;
+   border-radius:20px;
+   
+}
+.BTSandOVER{
+   margin: -100px auto 0;
+   margin-left: -500px;
+   position: fixed;
+
+}
+.BTSandOVER a{
+   text-decoration: none;
+   font-style:none;
+   font-weight:bold;
+   color:yellow;
+   font-size:x-large
+   
+}
+.BTSandOVER span{
+   padding:10px;
+   background:blueviolet;
+   border-radius:20px;
+}
+.BTSandOVER1{
+   margin: -00px auto 0;
+   margin-left: -1200px;
+   position: fixed;
+}
+   
+.BTSandOVER1 a{
+   text-decoration: none;
+   font-style:none;
+   font-weight:bold;
+   color:yellow;
+   font-size:x-large
+}
+   
+.BTSandOVER1 span{
+   padding:10px;
+   background:blueviolet;
+   border-radius:20px;
+   
+}
+.BTSandOVER2{
+   margin: 100px auto 0;
+   margin-left: -1200px;
+   position: fixed;
+}
+   
+.BTSandOVER2 a{
+   text-decoration: none;
+   font-style:none;
+   font-weight:bold;
+   color:yellow;
+   font-size:x-large
+}
+   
+.BTSandOVER2 span{
+   padding:10px;
+   background:blueviolet;
+   border-radius:20px;
+   
+}
+
+@media(min-aspect-ratio:16/9){
+   .back-video{
+       width: 100%;
+       height: auto;
+   }    
+}
+@media(max-aspect-ratio:16/9)
+   .back-video{
+       width:auto;
+       height: 100%;
+   }
+}
